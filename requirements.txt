@@ -1,5 +1,5 @@
-protobuf
 numpy
+protobuf
 lap
 torch
 torchvision
