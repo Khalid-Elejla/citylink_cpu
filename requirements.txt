@@ -1,7 +1,7 @@
---upgrade pip==22.0.3
+--upgrade pip==24.2
 numpy
 protobuf
-lap[alldeps]
+lap
 torch
 torchvision
 torchaudio
