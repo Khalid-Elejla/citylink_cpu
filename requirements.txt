@@ -1,5 +1,6 @@
 protobuf
 numpy
+lap
 torch
 torchvision
 torchaudio
@@ -13,4 +14,3 @@ streamlit
 streamlit-folium
 ultralytics
 streamlit_extras
-lap
