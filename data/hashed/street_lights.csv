@@ -1,0 +1,16 @@
+ID,Location_Name,Latitude,Longitude,Status,Last_Inspection_Date
+1,Light_001,24.7136,46.6753,Working,2024-08-01
+2,Light_002,24.7100,46.6757,Out of Order,2024-07-25
+3,Light_003,24.7120,46.6780,Working,2024-08-10
+4,Light_004,24.7150,46.6790,Working,2024-08-15
+5,Light_005,24.7115,46.6740,Out of Order,2024-07-30
+6,Light_006,24.7145,46.6765,Working,2024-08-05
+7,Light_007,24.7170,46.6770,Working,2024-08-12
+8,Light_008,24.7125,46.6725,Out of Order,2024-07-29
+9,Light_009,24.7160,46.6730,Working,2024-08-03
+10,Light_010,24.7105,46.6760,Working,2024-08-18
+11,Light_011,24.7180,46.6745,Working,2024-08-08
+12,Light_012,24.7130,46.6795,Out of Order,2024-07-22
+13,Light_013,24.7110,46.6775,Working,2024-08-20
+14,Light_014,24.7155,46.6715,Working,2024-08-14
+15,Light_015,24.7190,46.6750,Out of Order,2024-07-28

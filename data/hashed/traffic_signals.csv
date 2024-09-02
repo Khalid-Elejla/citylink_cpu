@@ -1,0 +1,16 @@
+ID,Signal_Name,Latitude,Longitude,Status,Last_Maintenance_Date
+1,Signal_001,24.7108,46.6748,Operational,2024-08-02
+2,Signal_002,24.7123,46.6762,Malfunctioning,2024-07-31
+3,Signal_003,24.7110,46.6784,Operational,2024-08-12
+4,Signal_004,24.7132,46.6756,Operational,2024-08-20
+5,Signal_005,24.7154,46.6768,Malfunctioning,2024-07-29
+6,Signal_006,24.7100,46.6775,Operational,2024-08-15
+7,Signal_007,24.7140,46.6738,Operational,2024-08-10
+8,Signal_008,24.7173,46.6791,Malfunctioning,2024-08-05
+9,Signal_009,24.7125,46.6742,Operational,2024-08-08
+10,Signal_010,24.7150,46.6780,Operational,2024-08-03
+11,Signal_011,24.7118,46.6750,Malfunctioning,2024-07-28
+12,Signal_012,24.7165,46.6740,Operational,2024-08-18
+13,Signal_013,24.7107,46.6765,Operational,2024-08-22
+14,Signal_014,24.7138,46.6775,Malfunctioning,2024-08-12
+15,Signal_015,24.7190,46.6790,Operational,2024-07-25

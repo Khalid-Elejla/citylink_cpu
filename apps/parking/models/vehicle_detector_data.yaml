@@ -1,0 +1,30 @@
+# Train/val/test data config file for YOLO
+# Dataset description and paths
+
+# Number of classes
+nc: 8
+
+# Class names
+names:
+  0: person
+  1: car
+  2: van
+  3: bus
+  4: truck
+  5: heavy truck
+  6: bicycle
+  7: motorcycle
+
+# Paths to dataset images and labels
+path: ../data  # dataset root directory
+
+# Train and validation image and label directories
+train: train/images  # train images
+val: test/images      # validation images
+#test: test/images    # test images (optional)
+
+# Train and validation label directories
+labels:
+  train: train/labels  # train labels
+  val: test/labels/     # validation labels
+#  test: test/labels    # test labels (optional)

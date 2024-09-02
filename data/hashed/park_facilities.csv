@@ -1,0 +1,16 @@
+ID,Facility_Name,Latitude,Longitude,Facility_Type,Last_Maintenance_Date
+1,Facility_001,24.7140,46.6760,Playground,2024-08-12
+2,Facility_002,24.7115,46.6735,Bench,2024-08-05
+3,Facility_003,24.7120,46.6790,Fountain,2024-08-01
+4,Facility_004,24.7155,46.6775,Playground,2024-07-30
+5,Facility_005,24.7100,46.6740,Bench,2024-08-08
+6,Facility_006,24.7160,46.6750,Fountain,2024-08-15
+7,Facility_007,24.7135,46.6725,Playground,2024-07-25
+8,Facility_008,24.7180,46.6780,Bench,2024-08-18
+9,Facility_009,24.7125,46.6730,Fountain,2024-08-10
+10,Facility_010,24.7150,46.6765,Playground,2024-08-12
+11,Facility_011,24.7105,46.6770,Bench,2024-07-29
+12,Facility_012,24.7175,46.6745,Fountain,2024-08-05
+13,Facility_013,24.7110,46.6755,Playground,2024-08-03
+14,Facility_014,24.7145,46.6785,Bench,2024-08-20
+15,Facility_015,24.7190,46.6735,Fountain,2024-07-22

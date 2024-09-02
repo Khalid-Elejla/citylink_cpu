@@ -1,0 +1,29 @@
+[theme]
+base="dark"
+primaryColor="#1e90ff"
+backgroundColor="#0a1a35"
+secondaryBackgroundColor="#2c3e50"
+
+vivid
+[theme]
+base="dark"
+primaryColor="#007bff"
+backgroundColor="#001f3f"
+secondaryBackgroundColor="#0056b3"
+
+next vivid
+[theme]
+base="dark"
+primaryColor="#00bfff"
+backgroundColor="#0d1f2d"
+secondaryBackgroundColor="#1a73e8"
+
+vivid Light
+[theme]
+primaryColor="#1e90ff"
+backgroundColor="#f0f8ff"
+secondaryBackgroundColor="#87cefa"
+textColor="#000000"
+
+
+

@@ -1,0 +1,16 @@
+protobuf
+numpy
+torch
+torchvision
+torchaudio
+pydantic
+opencv-contrib-python-headless
+openpyxl
+geopandas
+folium
+leafmap
+streamlit
+streamlit-folium
+ultralytics
+streamlit_extras
+lap

@@ -1,0 +1,32 @@
+# streamlit
+# geopandas
+# folium
+# streamlit-folium
+# leafmap
+# #opencv-python
+
+# opencv-python-headless
+# protobuf
+# ultralytics
+# numpy
+# torch
+# torchvision
+# torchaudio
+# pydantic
+# lap
+# openpyxl
+streamlit #==1.38.0
+geopandas #==1.0.1
+folium #==0.17.0
+streamlit-folium #==0.22.0
+leafmap #==0.36.10
+opencv-python-headless #==4.10.0.84
+protobuf #==5.28.0
+ultralytics #==8.2.83
+numpy #==2.1.0
+torch #==2.4.0
+torchvision #==0.19.0
+torchaudio #==2.4.0
+pydantic #==2.8.2
+openpyxl
+streamlit_extras
