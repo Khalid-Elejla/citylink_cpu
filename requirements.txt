@@ -1,6 +1,6 @@
 numpy
 protobuf
-lap
+lap[alldeps]
 torch
 torchvision
 torchaudio
