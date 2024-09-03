@@ -98,7 +98,7 @@ def run_parking_detection(video_source: Union[str, int], model_path: str, parkin
             print("Failed to read frame from video source.")
             break
 
-        results = model.track(frame,device= cpu)
+        results = model.track(frame,device= "cpu")
         if not results:
             print("No results from model tracking.")
             continue
