@@ -1,5 +1,4 @@
-numpy
-lap
+git+https://github.com/gatagat/lap@new-packaging
 torch
 torchvision
 torchaudio
