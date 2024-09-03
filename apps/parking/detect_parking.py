@@ -68,7 +68,7 @@ def draw_bounding_box(frame: np.ndarray, vehicles_bbox: List[BBox], vehicle_name
 
 
 def run_parking_detection(video_source: Union[str, int], model_path: str, parking_spots: list, stframe, show_boxes: bool, counter_display):
-    model = YOLO(model_path,device='cpu')
+    model = YOLO(model_path,device=cpu)
     cap = cv2.VideoCapture(video_source)
     
     if not cap.isOpened():
