@@ -1,4 +1,4 @@
-lapx
+lap
 torch
 torchvision
 torchaudio
