@@ -1,7 +1,3 @@
---upgrade pip
-numpy
-protobuf
-lap
 torch
 torchvision
 torchaudio
