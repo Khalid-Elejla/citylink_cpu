@@ -69,6 +69,7 @@ def draw_bounding_box(frame: np.ndarray, vehicles_bbox: List[BBox], vehicle_name
 
 def run_parking_detection(video_source: Union[str, int], model_path: str, parking_spots: list, stframe, show_boxes: bool, counter_display):
     model = YOLO(model_path)
+    video_source='rtsp://rtspstream:14c881de8704b9ab7302762fcff6ba30@zephyr.rtsp.stream/movie'
     cap = cv2.VideoCapture(video_source)
     
     if not cap.isOpened():
@@ -141,62 +142,3 @@ def run_parking_detection(video_source: Union[str, int], model_path: str, parkin
     if output_path:
         out.release()
         stframe.text(f"Saved output video to {output_path}")
-
-# def run_parking_detection(video_source: Union[str, int], model_path: str, parking_spots: list, stframe, show_boxes: bool):
-#     model = YOLO(model_path)
-#     cap = cv2.VideoCapture(video_source)
-    
-#     if not cap.isOpened():
-#         stframe.text("Error: Could not open video source.")
-#         print("Error: Could not open video source.")
-#         return
-
-#     width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
-#     height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-#     fps = cap.get(cv2.CAP_PROP_FPS) if isinstance(video_source, str) else 30
-#     output_path = 'output5.mp4' if isinstance(video_source, str) else None
-
-#     if output_path:
-#         fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-#         out = cv2.VideoWriter(output_path, fourcc, fps, (width, height))
-#         if not out.isOpened():
-#             stframe.text("Error: Could not open video writer.")
-#             return
-
-#     vehicle_names = ["person","car", "van", "bus", "truck", "heavy truck", "bicycle", "motorcycle"]
-
-#     while True:
-#         ret, frame = cap.read()
-#         if not ret or frame is None:
-#             print("Failed to read frame from video source.")
-#             break
-
-#         results = model.track(frame)
-#         if not results:
-#             print("No results from model tracking.")
-#             continue
-
-#         bboxes = [BBox(
-#             x1=int(box.xyxy[0].tolist()[0]),
-#             y1=int(box.xyxy[0].tolist()[1]),
-#             x2=int(box.xyxy[0].tolist()[2]),
-#             y2=int(box.xyxy[0].tolist()[3]),
-#             track_id=int(box.id) if box.id is not None else 0,
-#             confidence=box.conf.item(),
-#             class_id=int(box.cls.item())
-#         ) for r in results for box in r.boxes]
-
-#         if show_boxes:
-#             frame = draw_bounding_box(frame, bboxes, vehicle_names)
-
-#         frame = check_parking_vacancy(frame, bboxes, parking_spots)
-
-#         if output_path:
-#             out.write(frame)
-
-#         stframe.image(frame, channels="BGR")
-
-#     cap.release()
-#     if output_path:
-#         out.release()
-#         stframe.text(f"Saved output video to {output_path}")
