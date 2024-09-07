@@ -69,7 +69,7 @@ def draw_bounding_box(frame: np.ndarray, vehicles_bbox: List[BBox], vehicle_name
 
 def run_parking_detection(video_source: Union[str, int], model_path: str, parking_spots: list, stframe, show_boxes: bool, counter_display):
     model = YOLO(model_path)
-    video_source='rtsp://rtspstream:14c881de8704b9ab7302762fcff6ba30@zephyr.rtsp.stream/movie'
+    # video_source='rtsp://rtspstream:14c881de8704b9ab7302762fcff6ba30@zephyr.rtsp.stream/movie'
     cap = cv2.VideoCapture(video_source)
     
     if not cap.isOpened():
